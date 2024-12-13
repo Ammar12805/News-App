@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: burlywood;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* height: 100vh; */
+    margin-top: 300px;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.card-title{
+    background-color: white;
+}
+.card-text{
+    background-color: white;
+}
+#inp{
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-color: aliceblue; */
+}
+
+#btn-search{
+    width: 70px;
+}
+#btn-search:hover{
+    background-color: blue;
+    transition: 2s;
+    zoom: inherit;
+    color: white;
+}
